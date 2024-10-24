@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVerde - Produtos Sustentáveis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Fundo com cor sólida */
+        body {
+            background-color: #E8F5E9; /* Verde claro */
+            color: #333; /* Cor do texto */
+        }
+        
+        .logo {
+            width: 150px; /* Ajuste do tamanho da logo */
+            height: auto; /* Mantém a proporção */
+        }
+        
+        .header, .footer {
+            background-color: #2E7D32; /* Mesma cor para cabeçalho e rodapé */
+        }
+        
+        .footer {
+            color: white; /* Cor do texto no rodapé */
+        }
+
+        .section-title {
+            font-weight: bold;
+            color: #2E7D32;
+            margin-top: 30px;
+        }
+
+        .product-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .nav-link {
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header text-white">
+        <div class="container d-flex justify-content-between align-items-center py-3">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <img src="imagens/logo.png" alt="Logo EcoVerde" class="logo mr-2">
+                <span style="font-weight: bold;">EcoVerde</span>
+            </a>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#produtos">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#sobre">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#sustentabilidade">Sustentabilidade</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Principal -->
+    <section id="home" class="container my-5">
+        <h1 class="section-title">Bem-vindo à EcoVerde</h1>
+        <p>A EcoVerde é dedicada a fornecer produtos sustentáveis que respeitam o meio ambiente e promovem um estilo de vida mais consciente. Explore nossos produtos ecológicos e faça parte da mudança para um futuro mais sustentável!</p>
+         <!-- Adicionando a imagem de boas-vindas -->
+            <img src="imagens/boas-vindas.jpg" alt="Imagem de Boas-Vindas" class="img-fluid">
+        </div>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section id="produtos" class="container my-5">
+        <h2 class="section-title">Nossos Produtos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="imagens/produto1.jpg" alt="Produto 1">
+                    <h3>conjunto de utensílios 5 peças bambu natural ecológico</h3>
+                    <p>Transforme sua cozinha com o nosso Conjunto de Utensílios 5 Peças em Bambu Natural Ecológico! Este conjunto é ideal para quem busca uma alternativa sustentável e estilosa para o dia a dia. Feitos de bambu natural de alta qualidade, os utensílios são leves, duráveis e resistentes ao calor, garantindo uma experiência de cozimento prática e segura.</p>
+                    <p><strong>Preço:</strong> R$ 29,90</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="imagens/produto2.jpg" alt="Produto 2">
+                    <h3>Papel Toalha Bobina Sustentável Reviva Santher Fs 6x200m - RTB01</h3>
+                    <p>Experimente a qualidade e a sustentabilidade com o Papel Toalha Bobina Sustentável Reviva Santher FS. Este produto é ideal para quem busca eficiência e consciência ambiental em um só item. Cada bobina contém 200 metros de papel toalha de alta absorção, projetado para atender às suas necessidades diárias de limpeza com praticidade e conforto.</p>
+                    <p><strong>Preço:</strong> R$ 79,90</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="imagens/produto3.jpg" alt="Produto 3">
+                    <h3>Camiseta infantil manga longa - algodão orgânico - Branco e Areia</h3>
+                    <p>Apresentamos a Camiseta Infantil Manga Longa em Algodão Orgânico, uma escolha perfeita para o conforto e estilo dos pequenos! Disponível nas cores Branco e Areia, esta camiseta combina design moderno e tecidos sustentáveis, proporcionando uma peça essencial para o guarda-roupa das crianças.
+</p>
+                    <p><strong>Preço:</strong> R$ 19,90</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Nós -->
+    <section id="sobre" class="container my-5">
+        <h2 class="section-title">Sobre Nós</h2>
+        <p>A EcoVerde foi fundada com a missão de oferecer alternativas sustentáveis para o consumo diário, minimizando o impacto ambiental e promovendo práticas ecológicas.</p>
+        <p><strong>Nossos valores incluem:</strong></p>
+        <ul>
+            <li>Redução de resíduos</li>
+            <li>Apoio a fornecedores locais</li>
+            <li>Uso de materiais recicláveis e biodegradáveis</li>
+        </ul>
+    </section>
+
+    <!-- Seção Sustentabilidade -->
+    <section id="sustentabilidade" class="container my-5">
+        <h2 class="section-title">Sustentabilidade</h2>
+        <p>Na EcoVerde, promovemos práticas que ajudam a preservar o meio ambiente:</p>
+        <ul>
+            <li>Reciclagem de embalagens</li>
+            <li>Utilização de energia renovável nos processos de produção</li>
+            <li>Embalagens biodegradáveis para todos os produtos</li>
+        </ul>
+        <p>Incentivamos nossos clientes a adotar essas práticas sustentáveis em seu dia a dia, fazendo escolhas que ajudam a reduzir o impacto no meio ambiente.</p>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="container my-5">
+        <h2 class="section-title">Contato</h2>
+        <p><strong>Endereço:</strong> Rua das Flores, 123 - Centro, Videira - SC, Brasil</p>
+        <p><strong>Telefone:</strong> (49) 9999-9999</p>
+        <p><strong>Email:</strong> contato@ecoverde.com.br</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer text-white text-center py-4">
+        <div class="container">
+            <p>Endereço: Rua das Flores, 123 - Centro, Videira - SC, Brasil</p>
+            <p>Telefone: (49) 9999-9999</p>
+            <p>Email: contato@ecoverde.com.br</p>
+            <div class="social-media">
+                <a href="https://instagram.com/ecoverde" class="text-white" target="_blank">Instagram</a> |
+                <a href="https://facebook.com/ecoverde" class="text-white" target="_blank">Facebook</a> |
+                <a href="https://linkedin.com/company/ecoverde" class="text-white" target="_blank">LinkedIn</a>
+            </div>
+            <hr class="my-4">
+            <p class="mb-0">© 2024 EcoVerde. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

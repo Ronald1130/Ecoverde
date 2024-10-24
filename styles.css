@@ -1,0 +1,78 @@
+/* Fundo Principal com Imagem */
+body {
+    background-image: url('imagens/fundo-natureza.jpg'); /* Imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333333;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6; /* Espaçamento entre linhas de texto */
+}
+
+/* Estilos para o Cabeçalho */
+header {
+    background-color: rgba(36, 90, 42, 0.8);
+    border-bottom: 1px solid #8ba88e;
+    padding: 20px 0; /* Espaçamento vertical no cabeçalho */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #eaf4e1;
+}
+
+/* Estilos para o Hero Section */
+.hero {
+    padding: 120px 0; /* Mais espaço na seção principal */
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Estilos para Seções */
+section {
+    padding: 60px 0; /* Adiciona espaçamento vertical entre as seções */
+}
+
+h2 {
+    margin-bottom: 30px; /* Mais espaço abaixo dos títulos */
+    color: #245a2a;
+}
+
+p {
+    margin-bottom: 20px; /* Espaçamento entre parágrafos */
+    color: #333333;
+}
+
+/* Seção de Produtos */
+#produtos .col-md-4 {
+    margin-bottom: 40px; /* Espaçamento entre os produtos */
+}
+
+/* Rodapé */
+footer {
+    background-color: #245a2a;
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #eaf4e1;
+}
